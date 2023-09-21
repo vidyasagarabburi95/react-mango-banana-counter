@@ -1,0 +1,93 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.yellowContainer {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.whiteContainer {
+  background-color: #ffffff;
+  height: 600px;
+  width: 800px;
+  border-radius: 15px;
+  padding: 30px;
+}
+.imageCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.image {
+  height: 250px;
+  width: 280px;
+}
+.bcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.button {
+  height: 36px;
+  width: 100px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 0px;
+}
+h1 {
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 576px) {
+  .imageCon {
+    flex-direction: column;
+  }
+  .image {
+    height: 60px;
+    width: 60px;
+  }
+  .button1 {
+    display: block;
+    height: 36px;
+    width: 100px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button1 {
+    display: none;
+  }
+  .button2 {
+    height: 36px;
+    width: 100px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 0px;
+  }
+}
+span {
+  color: #ffd569;
+  font-size: 42px;
+}
